@@ -6,7 +6,7 @@ export async function GET(request, { params }) {
     const collection = database.collection(process.env.MONGODB_COLLECTION);
 
     const { id } = await params
-    const results = await collection.findOne({ _id: new ObjectId(id) }).toArray()
+    const results = await collection.findOne({ _id: new ObjectId(id) })
 
     return Response.json(results);
 }
