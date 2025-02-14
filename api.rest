@@ -60,5 +60,5 @@ content-type: application/json
 
 ### 
 
-DELETE https://nxapi-mongodb.vercel.app/api/users/6542da35c20d9ad95c739702
+DELETE https://nxapi-mongodb.vercel.app/api/users/65a007ce28c314bb5c1b5042
 content-type: application/json
